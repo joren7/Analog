@@ -1,0 +1,60 @@
+html, body {
+	min-width: 160;
+	font-size: 80%;
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 0.15em;	
+	background-image: url(images/back.jpg);
+}
+			
+#page {
+	max-width: 900px;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	border: 12px double #000;
+	background-color: #808AA9;
+}
+
+#logo {
+	width: 150px;
+	margin: 10px auto 25px auto;
+
+}
+
+ul {
+	max-width:900px;
+	padding: 30px 8%;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	justify-content: center;
+	
+}
+			
+li {
+	display: inline;
+	margin: 0px 3px;
+	font-size: 12px;
+	color: #222;
+	font-weight: 600;
+	transition: .3s;
+}
+
+  p {
+	max-width: 600px;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px auto 20px auto; 
+	font-weight: normal;
+	border: #e70000;
+}
+			
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+}
+a:hover, a.on {
+	color: #e70000;
+	background-color: lightgray;}
